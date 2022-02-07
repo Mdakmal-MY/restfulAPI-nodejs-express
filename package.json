@@ -4,8 +4,7 @@
   "description": "Add ```  localhost/post/ ```",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
   "homepage": "https://github.com/Mdakmal-MY/restfulAPI-nodejs-express#readme",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "mongoose": "^6.2.0",
